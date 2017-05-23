@@ -17,3 +17,14 @@ var z = [];
 console.log(x);
 console.log(y);
 console.log(z);
+
+// Constant Bindings
+const taxRate = 0.065;
+console.log(taxRate);
+// taxRate = 300.065;
+// cannot reassign a const variable
+
+//let bindings - new to JS
+let myFavoriteColor = "blue";
+myFavoriteColor = "green"; //allowed because "let" allows assignment
+console.log(myFavoriteColor);
