@@ -18,3 +18,14 @@ console.log(x);
 console.log(y);
 console.log(z);
 console.log(a);
+
+//constant bindings
+const  taxRate = 0.065; //camelcase
+console.log (taxRate);
+//taxRate = 300.065; //cannot do this because this is a reassignment of a constant
+                    // new browswers for constant
+
+//let bindings - new to the JavaScript
+let myFavoriteColor = 'blue';
+myFavoriteColor = 'green'; //this is allowed because let alow reassignment
+console.log(myFavoriteColor);
