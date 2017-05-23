@@ -18,3 +18,13 @@ console.log (x);
 console.log (y);
 console.log (z);
 console.log (a);
+
+//constant bindings
+const taxRate = 0.06;
+console.log(taxRate);
+//taxRate = 300.065;// cannot do this because this is a reassigment of a constant
+
+// let bindings - new to the Java Script
+let myFavotiteColor = 'blue';
+myFavoriteColor = 'green'; //this is allowed the reassignment
+console.log(myFavoriteColor);
