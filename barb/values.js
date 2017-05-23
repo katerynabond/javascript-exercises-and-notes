@@ -24,3 +24,15 @@ console.log(x);
 console.log(y);
 console.log(z);
 console.log(a);
+
+//constatnt bindings
+const taxRate = 0.065;
+console.log(taxRate);
+//taxRate = 300.065; --cannot do this because this is a reassignment of a constant. new browsers for constant
+
+
+//let bindings -- new to the Javascript language.
+let myFavoriteColor = 'blue';
+myFavoriteColor = 'green'; //this is allowed because 'let' allows reassignment
+
+console.log(myFavoriteColor);
