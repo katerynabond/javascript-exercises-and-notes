@@ -30,3 +30,12 @@ let myFavoriteColor ='blue';
 myFavoriteColor = 'green' ; // this is allowed because
                             //let allows reassignmenet
 console.log(myFavoriteColor);
+
+//expressions and statements
+//statements=>; (semicolon)
+//expression=> can be evaluated (operations with values)
+//GOOD!
+var k= 7;
+var p=3 *(k+2) //this contains variables to create statements
+console.log(p);
+//3*(K+2) =VAR P; //THIS IS BAD! DON'T DO IT!!
