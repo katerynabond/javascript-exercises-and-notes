@@ -28,3 +28,15 @@ console.log(taxRate);
 let myFavoriteColor = "blue";
 myFavoriteColor = "green"; //allowed because "let" allows assignment
 console.log(myFavoriteColor);
+
+// Expressions and Statements
+// statements  -> ; (semicolon)
+// expressions -> can be evaluated (operations with values )
+// GOOD!
+var k = 7;
+var p = 3 * (k + 2); // this contains expressions to create a statement
+console.log(p);
+
+// BAD!
+// 3 * (k + 2) = var p;
+//improper order of assignment
