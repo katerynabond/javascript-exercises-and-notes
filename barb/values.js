@@ -36,3 +36,11 @@ let myFavoriteColor = 'blue';
 myFavoriteColor = 'green'; //this is allowed because 'let' allows reassignment
 
 console.log(myFavoriteColor);
+
+
+//expressions and statements
+// statements -> ; (semicolon)
+// expressions -> can be evaluaged (operations with values)
+var k = 7;
+var p = 3 * (k + 2); //this contains expressions to create a statements
+console.log(p);
