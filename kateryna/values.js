@@ -28,3 +28,24 @@ console.log(taxRate);
 let myFavotiteColor = 'blue';
 myFavoriteColor = 'green'; //this is allowed the reassignment
 console.log(myFavoriteColor);
+
+
+//expressions and statements
+//statements ->; (semicolon)
+//expressions -> can be evaluated (operations with values)
+var k = 7;
+var p = 3 * (k + 2);//this contains expressions to ccreate a statement
+console.log(p);
+//3 * (k + 2) = var p; //don't do it
+
+
+
+
+
+
+
+
+
+
+
+//
