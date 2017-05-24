@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // This is the file for Values, Expressions and Statements
 
 // Values - What is a value?
@@ -29,3 +30,15 @@ let myFavoriteColor = 'blue';
 myFavoriteColor = 'green'; //let allows reassignment within block scope
 
 console.log(myFavoriteColor);
+
+// expressions and Statements
+// statement -> ; (semicolon)
+// expressions -> can be evaluated
+// GOOD!
+var k = 7;
+var p = 3 * (k + 2);
+
+// BAD!
+//3 * (k + 2) = var p;
+
+console.log(p);
